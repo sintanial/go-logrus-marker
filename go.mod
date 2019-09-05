@@ -1,3 +1,3 @@
-module github.com/sintanial/logrus-identity
+module github.com/sintanial/logrus-marker
 
 go 1.13
