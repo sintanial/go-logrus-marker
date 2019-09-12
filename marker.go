@@ -25,3 +25,8 @@ func NewLog(prefix string) *logrus.Logger {
 	return l
 }
 
+func NewWithLevel(prefix string, level logrus.Level) *logrus.Logger {
+	l := NewLog(prefix)
+	l.SetLevel(level)
+	return l
+}
